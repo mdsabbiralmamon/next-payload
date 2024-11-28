@@ -1,0 +1,43 @@
+/* Global reset for consistent styling across browsers */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* Optionally, add these to remove default text styling */
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Remove list styling */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure that form elements have consistent styles */
+input, button, textarea, select {
+  background: transparent;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Ensure that images do not exceed their container's width */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
